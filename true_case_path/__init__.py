@@ -1,9 +1,9 @@
-#!/usr/bin/env python
+__all__ = ['true_case_filename', 'true_case_path']
+
+
 import os
-import public
 
 
-@public.add
 def true_case_filename(path, filename):
     """return a string with case exact filename as stored in the filesystem"""
     if os.path.exists(os.path.join(path, filename)):
@@ -13,7 +13,6 @@ def true_case_filename(path, filename):
             return l
 
 
-@public.add
 def true_case_path(path):
     """return a string with case exact path as stored in the filesystem"""
     true_paths = []

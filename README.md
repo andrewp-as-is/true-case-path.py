@@ -1,22 +1,16 @@
 <!--
-https://pypi.org/project/readme-generator/
-https://pypi.org/project/python-readme-generator/
+https://readme42.com
 -->
 
-[![](https://img.shields.io/pypi/pyversions/true-case-path.svg?longCache=True)](https://pypi.org/project/true-case-path/)
-[![](https://img.shields.io/pypi/v/true-case-path.svg?maxAge=3600)](https://pypi.org/project/true-case-path/)
-[![Travis](https://api.travis-ci.org/looking-for-a-job/true-case-path.py.svg?branch=master)](https://travis-ci.org/looking-for-a-job/true-case-path.py/)
 
-#### Installation
+[![](https://img.shields.io/pypi/v/true-case-path.svg?maxAge=3600)](https://pypi.org/project/true-case-path/)
+[![](https://img.shields.io/badge/License-Unlicense-blue.svg?longCache=True)](https://unlicense.org/)
+[![](https://github.com/andrewp-as-is/true-case-path.py/workflows/tests42/badge.svg)](https://github.com/andrewp-as-is/true-case-path.py/actions)
+
+### Installation
 ```bash
 $ [sudo] pip install true-case-path
 ```
-
-#### Functions
-function|`__doc__`
--|-
-`true_case_path.true_case_filename(path, filename)` |return a string with case exact filename as stored in the filesystem
-`true_case_path.true_case_path(path)` |return a string with case exact path as stored in the filesystem
 
 #### Examples
 ```python
@@ -26,5 +20,5 @@ function|`__doc__`
 ```
 
 <p align="center">
-    <a href="https://pypi.org/project/python-readme-generator/">python-readme-generator</a>
+    <a href="https://readme42.com/">readme42.com</a>
 </p>
